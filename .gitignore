@@ -1,0 +1,55 @@
+#basico
+.env
+env
+env-provider.zip
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+.terraformrc
+.terraform.lock.hcl
+*.backup
+*.out
+*.plan
+
+# Lockfiles
+*.lock
+
+# Ignore sensitive files
+# AWS credentials
+.aws/
+*.pem
+*.key
+credentials
+config
+aws-key
+*.pub
+
+# Azure credentials
+azure.tfvars
+azure-key
+
+# Docker
+*.env
+.dockerignore
+Dockerfile.*
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kube/config
+kubeconfig.yaml
+k8s_secrets.yaml
+
+# Sensitive data
+secrets.env
+.env
+.env.*
+.envrc
