@@ -25,7 +25,7 @@ data "aws_ami" "ubuntu" {
 terraform {
   required_providers {
     env = {
-      source = "e-breuninger/env"  # CORRETO: e-breuninger
+      source = "e-breuninger/env" 
       version = "0.5.0"
     }
   }
